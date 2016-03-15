@@ -1,0 +1,30 @@
+package br.aeso.aula08.Endereço;
+
+import br.aeso.aula08.Fornecedor.Fornecedor;
+
+public class Endereco {
+	
+	private String rua;
+	private String numero;
+	private String complemento;
+	private String bairro;
+	private String cidade;
+	private String cep;
+	private Fornecedor fornecedor;
+	
+	
+	public Endereco(){}
+	
+	public Endereco(String rua, String numero, String complemento, String bairro, String cidade, String cep, Fornecedor fornecedor){
+		
+		this.rua = rua;
+		this.numero = numero;
+		this.complemento = complemento;
+		this.bairro = bairro;
+		this.cidade = cidade;
+		this.cep = cep;
+		this.fornecedor = fornecedor;
+		
+	}
+
+}
